@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@100,200,300,400,500,600,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow:hidden;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+   
+    height:100%;
+    width:100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+   border:2px solid black;
+   
+  
+}
+nav{
+    width:100%;
+    height:10vh;
+    /* border:1px solid green; */
+    display: flex;
+   justify-content:space-between;
+   align-items: center;
+   list-style: none;
+   background-color: black;
+}
+.logo{
+    font-size: 2rem;
+    margin: 15px;
+    color:white
+}
+.options{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+}
+span{
+    /* border:1px solid red; */
+    padding:7px;
+    margin:5px;
+    color:white;
+    cursor:pointer;
+ 
+    
+    font-size: 1.4rem;
+}
+.main{
+      /* border:2px solid blue; */
+     height:95vh;
+     width:100vw;
+    background-image: url('camera.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid black;
+}
+.first,.second{
+    color:white;
+    font-size: 3rem;
+    font-weight: 600;
+    margin:20px;
+    
+
+}
+.second{
+    font-size:2.8rem ;
+    padding-left:30px;
+}
+button{
+    padding:20px;
+    font-size:1.2rem;
+    width:30%;
+    margin:2%;
+    border-radius: 3%;
+    cursor:pointer;
+    
+    
+}
+.learn{
+    background-color: black;
+    border:1px solid white;
+    color:white; 
+    font-weight:700; 
+    margin-left:20%;
+}
+.subscribe{
+    background-color: white;
+    color:black;
+    border:none;
+    font-weight:700;
+}
+.learn:hover{
+    background-color: white;
+    color:black;
+}
+.subscribe:hover{
+    background-color: black;
+    color:white;
+}
+span:hover{
+    background-color: white;
+    color:black;
+    border-radius: 8%;
+}
